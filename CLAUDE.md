@@ -191,7 +191,7 @@ fun `given rooms loaded, when LoadRooms intent, then state contains rooms`() = r
 
 ## Git Workflow
 
-**Default branch:** `master`
+**Default branch:** `main`
 
 **Branch naming:**
 ```
