@@ -1,0 +1,87 @@
+###############################################################################
+# Android / Gradle
+###############################################################################
+*.iml
+.gradle/
+/local.properties
+local.properties
+/build
+/captures
+.externalNativeBuild/
+.cxx/
+
+###############################################################################
+# Android Studio / IntelliJ IDEA
+###############################################################################
+/.idea/caches/
+/.idea/libraries/
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/.name
+/.idea/deploymentTargetDropDown.xml
+/.idea/kotlinc.xml
+/.idea/migrations.xml
+/.idea/render.experimental.xml
+# Keep these IDEA files (shared project settings):
+# .idea/compiler.xml
+# .idea/gradle.xml
+# .idea/runConfigurations/
+
+###############################################################################
+# macOS
+###############################################################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+###############################################################################
+# Secrets & environment
+###############################################################################
+google-services.json
+GoogleService-Info.plist
+*.keystore
+*.jks
+keystore.properties
+secrets.properties
+.env
+.env.*
+
+###############################################################################
+# Supabase
+###############################################################################
+supabase/.env
+supabase/functions/.env
+
+###############################################################################
+# Generated / release artefacts
+###############################################################################
+*.apk
+*.aab
+*.ap_
+*.dex
+proguard/
+output-metadata.json
+release/
+
+###############################################################################
+# Test reports & coverage
+###############################################################################
+/test-results/
+/reports/
+*.exec
+
+###############################################################################
+# Kotlin / JVM
+###############################################################################
+*.class
+
+###############################################################################
+# Windows
+###############################################################################
+Thumbs.db
+ehthumbs.db
+Desktop.ini

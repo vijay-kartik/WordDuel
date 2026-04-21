@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc --track-changes=all \"WordDuel/WordDuel-PRD.docx\" -o /tmp/prd.md)",
+      "Read(//tmp/**)",
+      "Bash(python3 -c \"import zipfile, os; z = zipfile.ZipFile\\('/Users/vkartik/Dev/WordDuel/WordDuel/WordDuel-PRD.docx'\\); z.extractall\\('/tmp/prd_unpacked'\\)\")",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}
