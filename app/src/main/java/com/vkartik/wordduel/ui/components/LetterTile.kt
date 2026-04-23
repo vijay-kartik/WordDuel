@@ -33,7 +33,9 @@ enum class TileState {
 fun LetterTile(
     letter: Char?,
     state: TileState,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    tileSize: androidx.compose.ui.unit.Dp = 56.dp,
+    textStyle: androidx.compose.ui.text.TextStyle = TileLetterStyle
 ) {
     val gameColors = MaterialTheme.gameColors
 
@@ -62,7 +64,7 @@ fun LetterTile(
 
     Box(
         modifier = modifier
-            .size(56.dp)
+            .size(tileSize)
             .clip(shape)
             .background(backgroundColor)
             .then(
@@ -77,7 +79,7 @@ fun LetterTile(
         if (letter != null) {
             Text(
                 text = letter.uppercase(),
-                style = TileLetterStyle,
+                style = textStyle,
                 color = contentColor
             )
         }
