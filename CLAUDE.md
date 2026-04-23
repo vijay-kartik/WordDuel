@@ -249,8 +249,8 @@ Screens explicitly **out of scope for MVP**: Splash, Onboarding, Profile & Stats
 
 | Token | Value |
 |---|---|
-| Primary colour | `#7C3AED` (Purple) |
-| Secondary colour | `#F97316` (Orange) |
+| Primary colour | `#10B981` (Green) |
+| Secondary colour | `#F59E0B` (Amber) |
 | Accent colour | `#FACC15` (Yellow) |
 | Typography | Inter (Bold 700, SemiBold 600, Medium 500, Regular 400) |
 | Corner radius | Rounded (use `RoundedCornerShape`) |

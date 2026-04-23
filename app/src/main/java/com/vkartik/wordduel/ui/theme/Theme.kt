@@ -92,12 +92,12 @@ private val DarkGameColors = WordDuelGameColors(
     tileEmptyBorder = Dark_Outline,
     tileActiveBackground = Dark_SurfaceContainer,
     tileActiveBorder = Dark_Primary,
-    tileAbsentBackground = Dark_SurfaceContainerHighest,
-    tileAbsentContent = Dark_OnSurfaceVariant,
-    tilePresentBackground = Dark_SecondaryContainer,
-    tilePresentContent = Dark_OnSecondaryContainer,
-    tileCorrectBackground = Dark_PrimaryContainer,
-    tileCorrectContent = Dark_OnPrimaryContainer,
+    tileAbsentBackground = Tile_Absent_Bg,
+    tileAbsentContent = Tile_Absent_On,
+    tilePresentBackground = Tile_Present_Bg,
+    tilePresentContent = Tile_Present_On,
+    tileCorrectBackground = Tile_Correct_Bg,
+    tileCorrectContent = Tile_Correct_On,
 )
 
 private val LightGameColors = WordDuelGameColors(
@@ -105,12 +105,12 @@ private val LightGameColors = WordDuelGameColors(
     tileEmptyBorder = Light_Outline,
     tileActiveBackground = Light_SurfaceContainer,
     tileActiveBorder = Light_Primary,
-    tileAbsentBackground = Light_SurfaceContainerHighest,
-    tileAbsentContent = Light_OnSurfaceVariant,
-    tilePresentBackground = Light_SecondaryContainer,
-    tilePresentContent = Light_OnSecondaryContainer,
-    tileCorrectBackground = Light_PrimaryContainer,
-    tileCorrectContent = Light_OnPrimaryContainer,
+    tileAbsentBackground = Tile_Absent_Bg,
+    tileAbsentContent = Tile_Absent_On,
+    tilePresentBackground = Tile_Present_Bg,
+    tilePresentContent = Tile_Present_On,
+    tileCorrectBackground = Tile_Correct_Bg,
+    tileCorrectContent = Tile_Correct_On,
 )
 
 val LocalGameColors = staticCompositionLocalOf { DarkGameColors }

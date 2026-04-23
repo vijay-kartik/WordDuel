@@ -65,3 +65,11 @@ val Light_OnSurface = Color(0xFF0B0D0E)
 val Light_OnSurfaceVariant = Color(0xFF5A5E63)
 val Light_Outline = Color(0xFFA8A59D)
 val Light_OutlineVariant = Color(0xFFD9D6CF)
+
+// ── WordDuel Specific Tile Colors ──────────────────────────────────────────────
+val Tile_Correct_Bg = Color(0xFF10B981)
+val Tile_Correct_On = Color(0xFFFFFFFF)
+val Tile_Present_Bg = Color(0xFFF59E0B)
+val Tile_Present_On = Color(0xFF1A1A1A)
+val Tile_Absent_Bg = Color(0xFF3F4248)
+val Tile_Absent_On = Color(0xFFFFFFFF)
